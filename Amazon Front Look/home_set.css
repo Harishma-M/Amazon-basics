@@ -1,0 +1,163 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #111;
+    line-height: 1.6;
+  }
+  
+  /* Background */
+  .about-background {
+    background-color: #f5f5f5;
+    padding-top: 60px; /* Space for fixed header */
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #131921; /* Amazon dark blue */
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff9900; /* Amazon hover color */
+  }
+  
+  /* Main Content */
+  .about-content {
+    padding: 80px 20px 20px; /* Padding below fixed header */
+    text-align: center;
+    background-color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .about-content h2 {
+    font-size: 36px;
+    color: #131921;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  /* Categories Section */
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .category {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .category h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #131921;
+  }
+  
+  .category ul {
+    list-style: none;
+  }
+  
+  .category ul li {
+    margin: 8px 0;
+  }
+  
+  .category ul li a {
+    color: #0066c0;
+    text-decoration: none;
+  }
+  
+  .category ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #131921;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 60px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .categories {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .category {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    header h1 {
+      font-size: 20px;
+    }
+  
+    nav ul li {
+      margin-left: 10px;
+    }
+  
+    nav ul li a {
+      font-size: 14px;
+    }
+  }
+  

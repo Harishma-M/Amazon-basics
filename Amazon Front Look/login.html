@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Amazon</title>
+  <link rel="stylesheet" href="login.css">
+  <script>
+    // Handle form submission and redirection
+    function validateLogin(event) {
+      event.preventDefault();
+      
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+
+      // Simple validation: check if the fields are not empty
+      if (username === "" || password === "") {
+        alert("Please fill out both fields.");
+      } else {
+        alert("Login successful! Welcome, " + username);
+        window.location.href = "home.html";  // Redirect to Home Page after successful login
+      }
+    }
+  </script>
+</head>
+<body class="login-background">
+
+  <!-- Amazon Logo and Login Box -->
+  <div class="login-container">
+    <div class="login-box">
+      <img src="amazon-logo.webp" alt="Amazon Logo" class="amazon-logo">
+      
+      <!-- Login Form -->
+      <form id="login-form" onsubmit="validateLogin(event)">
+        <h2>Sign-In</h2>
+        
+        <label for="username">Email or mobile phone number</label>
+        <input type="text" id="username" name="username" placeholder="Enter your email or mobile number" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <button type="submit" class="signin-button">Sign-In</button>
+      </form>
+
+      <div class="additional-links">
+        <a href="#">Forgot your password?</a>
+        <p>New to Amazon? <a href="#">Create your Amazon account</a></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Amazon.com, Inc. or its affiliates</p>
+  </footer>
+</body>
+</html>

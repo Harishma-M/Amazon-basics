@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  }
+  
+  h1, h2, h3 {
+    color: #131921;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  /* Background Design for About Page (Simple Gradient) */
+  .about-background {
+    background: linear-gradient(to right, #00aaff, #0066cc); /* Light blue to dark blue gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: rgba(19, 25, 35, 0.7); /* Semi-transparent dark background */
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  header h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #ff9900;
+  }
+  
+  /* About Page Content Styles */
+  .about-content {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for content */
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-content ul li {
+    margin: 10px 0;
+  }
+  
+  .about-content ul li:before {
+    content: "✓ ";
+    color: #ff9900;
+  }
+  
+  .additional-links {
+    margin-top: 30px;
+  }
+  
+  .additional-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .additional-links ul li {
+    margin: 10px 0;
+  }
+  
+  .additional-links ul li a {
+    color: #ff9900;
+    text-decoration: none;
+  }
+  
+  .additional-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #131921;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

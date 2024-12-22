@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  }
+  
+  h1, h2, h3 {
+    color: #131921;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  /* Background Design for Settings Page (Soft Gradient) */
+  .settings-background {
+    background: linear-gradient(to right, #4caf50, #388e3c); /* Green gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: rgba(19, 25, 35, 0.7); /* Semi-transparent dark background */
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  header h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #ff9900;
+  }
+  
+  /* Settings Content Styles */
+  .settings-content {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for content */
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px;
+  }
+  
+  /* Settings Form Styles */
+  .settings-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .settings-form label {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .settings-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .settings-form input[type="text"],
+  .settings-form input[type="email"],
+  .settings-form input[type="password"] {
+    max-width: 400px;
+  }
+  
+  .settings-form button {
+    background-color: #ff9900; /* Amazon's orange color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .settings-form button:hover {
+    background-color: #e68900; /* Darker shade on hover */
+  }
+  
+  /* Additional Links */
+  .additional-links {
+    margin-top: 30px;
+  }
+  
+  .additional-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .additional-links ul li {
+    margin: 10px 0;
+  }
+  
+  .additional-links ul li a {
+    color: #ff9900;
+    text-decoration: none;
+  }
+  
+  .additional-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #131921;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
