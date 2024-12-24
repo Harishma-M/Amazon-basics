@@ -26,3 +26,39 @@ This project will explains you about how the outlook of the Amazon can be create
 _(click the button!)_
 
 [![GitHub](https://img.shields.io/badge/-GitHub-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harishma-M) [![Email](https://img.shields.io/badge/-Email-blue?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:harishmamofficial@gmail.com)
+
+- 👨‍💻All of my projects are available at [https://github.com/Harishma-M](https://github.com/)
+
+**Check out 
+✨
+[`@Harishma-M`](https://github.com/Harishma-M)✨**
+
+
+
+Projects:
+
+ ## Amazon-FrontEnd-Replica
+
+
+This project will explains you about how the outlook of the Amazon can be created . As I have used HTML, CSS, Java Script programming languages in it.
+
+[Amazon FrontEnd Basics ](https://github.com/Harishma-M/Amazon-FrontEnd-Replica)
+
+
+ ## Boutique Navigation
+
+
+This Boutique-Navigation project is sample project based on the Navigation process like creation of link within another link,hovering the words by changing the colors. As this project contains basic informations Home  , About , Product , Settings &amp; Ratings.
+
+
+[ Boutique Navigation ](https://github.com/Harishma-M/ Boutique-Navigation)
+
+
+
+## Acknowledgements
+
+
+If you have any doubt or want to contribute feel free to hit me up on (harishmamofficial@gmail.com)
+
+
+
