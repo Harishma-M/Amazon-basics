@@ -42,7 +42,7 @@ Projects:
 
 This project will explains you about how the outlook of the Amazon can be created . As I have used HTML, CSS, Java Script programming languages in it.
 
-[Amazon FrontEnd Basics ](https://github.com/Harishma-M/Amazon-FrontEnd-Replica)
+[Amazon FrontEnd Replica](https://github.com/Harishma-M/Amazon-FrontEnd-Replica)
 
 
  ## Boutique Navigation
@@ -51,7 +51,7 @@ This project will explains you about how the outlook of the Amazon can be create
 This Boutique-Navigation project is sample project based on the Navigation process like creation of link within another link,hovering the words by changing the colors. As this project contains basic informations Home  , About , Product , Settings &amp; Ratings.
 
 
-[ Boutique Navigation ](https://github.com/Harishma-M/ Boutique-Navigation)
+[Boutique Navigation](https://github.com/Harishma-M/Boutique-Navigation)
 
 
 
