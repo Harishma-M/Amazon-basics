@@ -1,4 +1,4 @@
-# Amazon-basics
+# Amazon-FrontEnd-Replica
 This project will explains you about how the outlook of the Amazon can be created . As I have used HTML, CSS, Java Script programming languages in it.
 # Welcome to [Harishma's](https://github.com/Harishma-M/) profile! <a href="https://github.com/Harishma-M/"> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a>
 
