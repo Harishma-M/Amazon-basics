@@ -37,6 +37,11 @@ _(click the button!)_
 
 Projects:
 
+# TripAdvisor-Replica
+I designed a Trip Advisor app replica in Figma, including splash, sign in/sign up, home, search, trips, reviews, and account pages. The project strengthened my UI/UX design skills, focusing on clean layouts, smooth navigation flow, and consistent user experience. It also gave me hands-on practice in mobile app prototyping and user-centered design.
+
+[TripAdvisor-Replica](https://github.com/Harishma-M/TripAdvisor-Replica)
+
 
 ## City-live-weather-finder
 The City-Based Weather Forecasting Web Application uses HTML, CSS, and JavaScript with API integration to show real-time weather details like temperature, humidity, and conditions. Valid city names display results, while invalid entries return errors. It demonstrates API usage, dynamic data handling, and interactive web development.
