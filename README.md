@@ -1,5 +1,5 @@
 # Amazon-FrontEnd-Replica
-This project will explains you about how the outlook of the Amazon can be created . As I have used HTML, CSS, Java Script programming languages in it.
+Amazon Frontend Replica recreates the look and feel of a popular e-commerce platform using only front-end technologies. The project includes a responsive navigation bar, hero banner, product categories, shopping cards, footer, and interactive UI components. It demonstrates responsive web design, CSS layouts, and JavaScript-based user interactions without implementing backend functionality.
 # Welcome to [Harishma's](https://github.com/Harishma-M/) profile! <a href="https://github.com/Harishma-M/"> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a>
 
 ### I'm a...   <img src="https://www.web24zone.com/wp-content/uploads/2022/10/46207-programmer-1.gif" height=15% width=40% align="right">
